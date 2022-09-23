@@ -1,0 +1,23 @@
+html, body{
+    margin: 10;
+    padding: 10;
+}
+.grid{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .grid div each time when we create a div inside grid dt would be styled as mentioned in square: */
+.square{
+    width: 20px;
+    height: 20px;
+    /*background-color: blue;*/
+}
+.snake {
+    background-color: green;
+}
+.apple {
+    background-color: red;
+}
